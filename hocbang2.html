@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web có 3 khung</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #khungtren, #khungtrai, #noidung {
+            height: 33.33%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #khungtren {
+            background-color: #f0f0f0;
+            height: 100px;
+        }
+
+        #khungtrai {
+            float: left;
+            background-color: #d0d0d0;
+        }
+
+        #noidung {
+            overflow: auto;
+        }
+
+        /* Clear floats */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="khungtren">
+      <img src="" alt="lỗi">
+    </div>
+    <div id="khungtrai">
+        <!-- Nội dung của khung trái -->
+    </div>
+    <div id="noidung">
+        <!-- Nội dung của khung nội dung -->
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
